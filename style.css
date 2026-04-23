@@ -1,0 +1,79 @@
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: lightgray;
+    background-color: rgb(0,0,0,0.85);
+    background-image: url("https://wallpapers.com/images/hd/ultra-hd-resident-evil-mansion-qqlv1qkn90bevbym.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+div{
+    background-color: black;
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+    max-width: 900px;
+    font-size: 21px;
+}
+
+h1{
+    color: #cc0000;
+    text-align: center;
+    font-kerning: normal;
+    text-shadow:rgba(204, 0, 0, 0.7) 1px 1px 1px ;
+
+}
+
+h3{
+    color: #cc0000;
+}
+
+img{
+    max-width: 100%;
+    border: 2px gray solid;
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: indianred;
+
+}
+
+a:hover{
+    color: red;
+}
+
+b {
+    color: #cc0000;
+    text-shadow:rgba(200,10,10,0.7) 1px 1px 1px ;
+}
+
+hr{
+    border: 0;
+    height: 5px;
+    background-color: rgb(220,45,20,0.5);
+}
+
+#Menu{
+    background-color: rgb(30,15,20,0.85);
+    border-radius: 15px;
+    border: darkred solid 1px;
+    text-align: center;
+    padding: 7px;
+    margin: auto;
+}
+#Menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+i {
+    color: gray;
+}
+
+
